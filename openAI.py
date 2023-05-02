@@ -6,6 +6,8 @@ class OpenAiChatMessage:
         self.role = role
         self.message = message
 
+
+#load apy keys from filepath.txt. If you have multiple api keys, you can place them in new lines. Code will use next api key each time in a loop.
 def load_api_keys(filepath:str) -> List[str]:
     with open(filepath, 'r') as f:
         api_keys = f.readlines()
@@ -22,8 +24,7 @@ class OpenAI:
         
         done = False
         while(not done):
-            next_index = (self.api_index + 1) % len(self.api_keys)  # calculate the next index
-            # this will be 4, which is the next index after 3 in this array
+            next_index = (self.api_index + 1) % len(self.api_keys)  
 
             self.api_index = next_index  # move to the next index
           
