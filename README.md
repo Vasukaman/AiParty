@@ -47,6 +47,9 @@ chain.run()
 # AI Party Template
 AI Party Template is a spreadsheet with specially prepared columns that allows you to easily fill every row with your values and export it as a CSV file to later use as list of instructions for AI Party.
 
+You can use:
+* [Google Sheets version](https://docs.google.com/spreadsheets/d/1p5rieAyoTvVfPJvbFq8O2XNx27A3xvkii50k0n_gMXw/edit?usp=sharing)
+* File "AiPartyTemplate.xlsx"
 
 ## Types
 The first column is named "Type".
