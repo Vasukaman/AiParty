@@ -110,4 +110,4 @@ For example:
 
 
 ##Examples:
-* [Website Design Generator](https://docs.google.com/spreadsheets/d/1jIZlorW3R_cAcllNgYoqyfQ4nSGCWscb0LnJTBMm0AA/edit?usp=sharing)
+* [Website Design Generator] (https://docs.google.com/spreadsheets/d/1jIZlorW3R_cAcllNgYoqyfQ4nSGCWscb0LnJTBMm0AA/edit?usp=sharing)
