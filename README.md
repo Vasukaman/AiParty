@@ -1,6 +1,11 @@
 # AI PARTY - Automate Everything And Anything
 `ai_party` is a tool for creating complex prompt chains quickly and easily. It is built using the GPT-3.5-turbo model.
 
+
+## Examples:
+* [Website Design Generator](https://docs.google.com/spreadsheets/d/1jIZlorW3R_cAcllNgYoqyfQ4nSGCWscb0LnJTBMm0AA/edit?usp=sharing)
+
+
 ## Important Notes
 The current version of AI Party is using the GPT-3.5-turbo model. To use another version of GPT or another LLM, you will need to rewrite the code slightly.
 
@@ -108,6 +113,3 @@ For example:
 >* Message content: "Create a webpage based on an order: {website_description}"
 >* What AI will receive: "Create a webpage based on an order: I need a very cool website for my Among Us server."
 
-
-## Examples:
-* [Website Design Generator](https://docs.google.com/spreadsheets/d/1jIZlorW3R_cAcllNgYoqyfQ4nSGCWscb0LnJTBMm0AA/edit?usp=sharing)
