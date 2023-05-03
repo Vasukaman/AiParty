@@ -108,4 +108,3 @@ For example:
 >* Message content: "Create a webpage based on an order: {website_description}"
 >* What AI will receive: "Create a webpage based on an order: I need a very cool website for my Among Us server."
 
-It allows you to control how AI replies are chained.
