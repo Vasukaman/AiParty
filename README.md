@@ -108,3 +108,6 @@ For example:
 >* Message content: "Create a webpage based on an order: {website_description}"
 >* What AI will receive: "Create a webpage based on an order: I need a very cool website for my Among Us server."
 
+
+##Examples:
+* [Website Design Generator](https://docs.google.com/spreadsheets/d/1jIZlorW3R_cAcllNgYoqyfQ4nSGCWscb0LnJTBMm0AA/edit?usp=sharing)
