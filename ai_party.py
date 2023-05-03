@@ -171,8 +171,10 @@ class AIMessageBlock(ChainBlock):
 
         #Prompt Type = CONTINUE_ONE
         elif self.prompt_type == PromptType.CONTINUE_ONE:
-            messages.append(openAI.OpenAiChatMessage(self.role.name.lower(), self.content))
-            self.result = openAi_object.generate_openAI_response(messages)
+            temp_messages = messages
+
+            temp_messages.append(openAI.OpenAiChatMessage(self.role.name.lower(), self.content))
+            self.result = openAi_object.generate_openAI_response(temp_messages)
 
         #Prompt Type = NEW
         elif self.prompt_type == PromptType.NEW:
