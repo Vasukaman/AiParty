@@ -2,7 +2,7 @@ from ai_party import *
 import os
 
 
-filename = "AiPartyTemplate.csv"
+filename = "AIPartyChain.csv"
 filepath = os.path.abspath(os.path.join(os.path.dirname(__file__), filename))
 chain = Chain(filepath)
 chain.load_blocks()
